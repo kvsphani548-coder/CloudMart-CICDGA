@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudMart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+    header {
+      background: #1d4ed8;
+      color: white;
+      padding: 24px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px #0001;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .product {
+      background: #eff6ff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CloudMart</h1>
+    <p>Your cloud-powered shopping experience</p>
+  </header>
+  <main>
+    <h2>Welcome to CloudMart!</h2>
+    <p>Your application is running successfully on Docker.</p>
+    <div class="products">
+      <div class="product">🛍️<h3>Products</h3></div>
+      <div class="product">🚚<h3>Fast Delivery</h3></div>
+      <div class="product">🔒<h3>Secure Shopping</h3></div>
+    </div>
+    <a href="/api">Test CloudMart API</a>
+  </main>
+</body>
+</html>
